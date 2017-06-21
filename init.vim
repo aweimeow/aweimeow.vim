@@ -10,6 +10,11 @@
 " https://opensource.org/licenses/MIT.
 "
 
+" Error: E474: Invalid argument: listchars=tab:»·,trail:·
+" sol: https://stackoverflow.com/questions/18321538
+scriptencoding utf-8
+set encoding=utf-8
+
 " use vim-plug to manage plugins, see https://github.com/junegunn/vim-plug#usage
 " for details
 call plug#begin('~/.vim/plugged/')
